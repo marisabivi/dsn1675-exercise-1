@@ -44,10 +44,10 @@ img {
     font-style: italic;
     color: white;
     background-color: rgba(0,0,0,.30);
-    overflow: hidden
+    overflow: hidden;
 }
 
-.info > h1 {
+.title > h1 {
     font-size: 1.5rem
 }
     
@@ -63,6 +63,8 @@ img {
 .info > p {
     font-size: .9rem;
     float: left;
+    margin: 0 0 1em;
+    padding: 0;
 }
 
 .info { 
@@ -71,8 +73,4 @@ img {
 
   border-bottom: 1px solid #ddd;
   border-top: 1px solid #ddd;
-}
-
-footer {
-    background-color: grey;
 }
