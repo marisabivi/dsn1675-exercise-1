@@ -1,0 +1,78 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  font: normal 100%/1.5 sans-serif;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.billboard {
+    overflow: hidden;
+    background-image: url(../images/stegosaurus.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+}
+
+.billboard > p {
+    margin: 6rem 0;
+    font-family: serif;
+    font-style: italic;
+    color: white;
+    background-color: rgba(0,0,0,.30);
+    overflow: hidden
+}
+
+.info > h1 {
+    font-size: 1.5rem
+}
+    
+    
+}
+.info > h2 { 
+    color: grey;
+    font-size: 1rem;
+    clear: left;
+    float: left;
+}
+
+.info > p {
+    font-size: .9rem;
+    float: left;
+}
+
+.info { 
+  margin: 0 0 1.5rem;
+  padding: 1.5rem 5%;
+
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+}
+
+footer {
+    background-color: grey;
+}
